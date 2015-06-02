@@ -1,0 +1,15 @@
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\bin\Debug\Sklep.exe.config
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\bin\Debug\Sklep.exe
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\bin\Debug\Sklep.pdb
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.csprojResolveAssemblyReference.cache
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\MainWindow.baml
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\MainWindow.g.cs
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\App.g.cs
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep_MarkupCompile.cache
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.g.resources
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.Properties.Resources.resources
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.csproj.GenerateResource.Cache
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.exe
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\Sklep.pdb
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\FinishTransactionWindow.baml
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\Sklep\obj\Debug\FinishTransactionWindow.g.cs

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Price>5</Price>
+  <Name>gwoździe</Name>
+  <Id>1</Id>
+</Product>
+%%
+<?xml version="1.0" encoding="utf-16"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Price>300</Price>
+  <Name>drukarka</Name>
+  <Id>2</Id>
+</Product>
+%%
+<?xml version="1.0" encoding="utf-16"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FoodAndDrinkProduct">
+  <Price>3.5</Price>
+  <Name>jogurt</Name>
+  <Id>3</Id>
+  <ExpirationDate>2015-06-04T00:00:00+02:00</ExpirationDate>
+</Product>
+%%
+<?xml version="1.0" encoding="utf-16"?>
+<Product xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xsi:type="FoodAndDrinkProduct">
+  <Price>10</Price>
+  <Name>jogurt z krótkim terminem</Name>
+  <Id>4</Id>
+  <ExpirationDate>2015-06-01T00:00:00+02:00</ExpirationDate>
+</Product>
+%%

@@ -1,0 +1,58 @@
+﻿<Window x:Class="Sklep.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sklep" Height="482.612" Width="1044.657">
+    <Grid RenderTransformOrigin="0.506,0.496" Margin="-159,10,0,-7">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="165*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="38*"/>
+            <RowDefinition Height="16*"/>
+            <RowDefinition Height="144*"/>
+            <RowDefinition Height="67*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Height="41" Margin="661,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" FontSize="30" FontWeight="Bold" TextAlignment="Center" RenderTransformOrigin="1.202,0.195"><Run Language="pl-pl" Text="SKLEP"/></TextBlock>
+        <ListView Name="boughtList" HorizontalAlignment="Left" Height="324" Margin="948,56,0,0" VerticalAlignment="Top" Width="208" Grid.RowSpan="6">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="Nazwa" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Cena [PLN]" DisplayMemberBinding="{Binding Price}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="1 EUR =" HorizontalAlignment="Left" Height="26" Margin="502,87,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label HorizontalAlignment="Left" Margin="598,87,0,0" VerticalAlignment="Top" Width="87"/>
+        <Label Content="1 USD =" HorizontalAlignment="Left" Height="26" Margin="502,129,0,0" VerticalAlignment="Top" Width="84"/>
+        <Label Name="dollarLab"  HorizontalAlignment="Left" Height="26" Margin="572,129,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Kurs" HorizontalAlignment="Left" Margin="480,56,0,0" VerticalAlignment="Top"/>
+        <Button Content="Zakończ sprzedaż" HorizontalAlignment="Left" Margin="713,110,0,0" VerticalAlignment="Top" Width="130" Height="35" Grid.Row="4" Grid.RowSpan="2" Click="Button_Click_1"/>
+        <Label Content="Suma:" HorizontalAlignment="Left" Margin="948,10,0,0" VerticalAlignment="Top" Grid.Row="5"/>
+        <CheckBox Name="backChBox" Content="Wycofaj" HorizontalAlignment="Left" Margin="745,4,0,0" VerticalAlignment="Top" Grid.Row="3" Grid.RowSpan="2"/>
+        <ListView Name="ProductsList" HorizontalAlignment="Right" Height="337" Margin="0,66,739,0" VerticalAlignment="Top" Width="269" Grid.RowSpan="6">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Id" DisplayMemberBinding="{Binding Id}"/>
+                    <GridViewColumn Header="Nazwa" DisplayMemberBinding="{Binding Name}"/>
+                    <GridViewColumn Header="Cena [PLN]" DisplayMemberBinding="{Binding Price}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <TextBox Name="idTxt" HorizontalAlignment="Left" Height="23" Margin="502,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Grid.Row="3" Grid.RowSpan="2"/>
+        <Button Content="Sprzedaj" HorizontalAlignment="Left" Margin="557,36,0,0" VerticalAlignment="Top" Width="72" Height="23" Click="Button_Click" Grid.Row="4"/>
+        <Label Content="Id:" HorizontalAlignment="Left" Margin="462,1,0,0" VerticalAlignment="Top" Grid.Row="3" Grid.RowSpan="2"/>
+        <TextBox Name="amountTxt" HorizontalAlignment="Left" Height="23" Margin="637,1,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="68" Grid.Row="3" Grid.RowSpan="2"/>
+        <Label Content="Ilość:" HorizontalAlignment="Left" Margin="596,36,0,0" VerticalAlignment="Top" Grid.Row="2" Grid.RowSpan="3"/>
+        <Button Name="startTransactionButt" Content="Rozpocznij sprzedaż" HorizontalAlignment="Left" Margin="534,110,0,0" VerticalAlignment="Top" Width="130" Height="35" Click="startTransactionButt_Click" Grid.Row="4" Grid.RowSpan="2"/>
+        <Label Name="totalLabel" Content="{Binding Mode=OneWay, Path=Total}" HorizontalAlignment="Left" Margin="1024,6,0,0" VerticalAlignment="Top" Grid.Row="5"/>
+        <CheckBox Name="euroCheck"  HorizontalAlignment="Left" Margin="682,97,0,0" VerticalAlignment="Top" Checked="euroCheck_Checked" Unchecked="euroCheck_Unchecked"/>
+        <CheckBox Name="dollarCheck" HorizontalAlignment="Left" Margin="682,140,0,0" VerticalAlignment="Top" Checked="dollarCheck_Checked" Unchecked="euroCheck_Unchecked"/>
+        <Label x:Name="euroLab"   HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="60" RenderTransformOrigin="0.786,4.385" Margin="572,87,0,0"/>
+        <Label x:Name="euroLab_Copy"   HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="33" RenderTransformOrigin="0.786,4.385" Margin="637,87,0,0" Content="PLN"/>
+        <Label x:Name="euroLab_Copy1"   HorizontalAlignment="Left" Height="26" VerticalAlignment="Top" Width="33" RenderTransformOrigin="0.786,4.385" Margin="637,129,0,0" Content="PLN"/>
+        <Label Name="currencyLabel" Content="PLN" HorizontalAlignment="Left" Margin="1098,10,0,0" Grid.Row="5" VerticalAlignment="Top"/>
+        <Label Content="Asortyment:" HorizontalAlignment="Left" Margin="188,33,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.079,-0.269"/>
+        <Label Content="Kupiono:" HorizontalAlignment="Left" Margin="948,25,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.658,-0.077"/>
+    </Grid>
+</Window>

@@ -1,0 +1,7 @@
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\bin\Debug\SkelpTests.dll
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\bin\Debug\SkelpTests.pdb
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\bin\Debug\Sklep.exe
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\bin\Debug\Sklep.pdb
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\obj\Debug\SkelpTests.csprojResolveAssemblyReference.cache
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\obj\Debug\SkelpTests.dll
+D:\uczelnia\Informatyka\Podstawy programowania na platformie .NET\Sklep_projekt\Sklep\SkelpTests\obj\Debug\SkelpTests.pdb
