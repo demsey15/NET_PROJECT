@@ -87,8 +87,8 @@ namespace SkelpTests
 
             double total = t.Total;
 
-            Assert.AreEqual(2 * c.ExchangeMoney(product.Price) + c.ExchangeMoney(product2.Price) + 2 *
-                      product3.ComputePrice(1, c), total);
+            Assert.AreEqual(Math.Round(2 * c.ExchangeMoney(product.Price) + c.ExchangeMoney(product2.Price) + 2 *
+                      product3.ComputePrice(1, c), 2), total);
         }
 
         [TestMethod]
@@ -112,8 +112,8 @@ namespace SkelpTests
             t.Currency = c2;
             double total = t.Total;
 
-            Assert.AreEqual(2 * c2.ExchangeMoney(product.Price) + c2.ExchangeMoney(product2.Price) + 2 *
-                      product3.ComputePrice(1, c2), total);
+            Assert.AreEqual(Math.Round(2 * c2.ExchangeMoney(product.Price) + c2.ExchangeMoney(product2.Price) + 2 *
+                      product3.ComputePrice(1, c2), 2), total);
         }
 
         [TestMethod]
